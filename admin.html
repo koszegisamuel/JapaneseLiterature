@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Admin</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/adminStyle.css">
+</head>
+
+<body>
+    <div class="container-fluid main">
+        <div class="row g-0">
+
+            <!-- NAVIGATION -->
+            <div class="col-4 col-md-2">
+                <nav class="navbar navbar-expand-sm navbar-dark bg-dark flex-column">
+                    <div class="container-fluid flex-column">
+                        <a class="navbar-brand" href="#">What's up Mátyás?</a>
+                        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="collapsibleNavId">
+                            <ul class=" navbar-nav me-auto mt-2 mt-lg-0 flex-column">
+                                <li class="nav-item">
+
+                                    <a class="nav-link " href="#" aria-current="page">Dashboard</a>
+                                </li>
+
+                                <li class="nav-item">
+
+                                    <a class="nav-link " href="#" onclick="appear()">Pending</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" onclick="publishedAppear()">Published</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Log the fuck out!</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <a style="margin-top: 40px;" href="./index.html" target="_blank"><button class="btn btn-primary">Visit main page</button> </a>
+                    </div>
+                </nav>
+            </div>
+
+            <!-- DASHBOARD -->
+
+            <!-- PENDING -->
+            <div class="col-8 col-md-10 text-center" id="post-holder">
+                <h1>Beérkező fordítások jóváhagyása és szerkesztése</h1>
+                <div class="row justify-content-center">
+                    <div class="col-6 mt-4 form-holder">
+                        <form class="pb-3" id="post-form">
+                            <div class="mb-4">
+                                <label for="author" class="form-label">Mű eredeti szerzője</label>
+                                <input type="text" class="form-control form-control-sm" name="author" id="author"
+                                    placeholder="">
+
+                            </div>
+                            <div class="mb-4">
+                                <label for="postTitle" class="form-label">Mű eredeti címe</label>
+                                <input type="text" class="form-control form-control-sm" name="postTitle" id="postTitle"
+                                    placeholder="">
+
+                            </div>
+
+                            <div class="mb-4">
+                                <label for="translatedTitle" class="form-label">Mű fordított címe</label>
+                                <input type="text" class="form-control form-control-sm" name="translatedTitle" id="translatedTitle"
+                                    placeholder="">
+
+                            </div>
+
+                            <div class="mb-4">
+                                <label for="originalDate" class="form-label">Mű megjelenési dátuma</label>
+                                <input type="text" class="form-control form-control-sm" name="originalDate" id="originalDate"
+                                    placeholder="">
+
+                            </div>
+
+                            <div class="mb-4">
+                                <label for="translator" class="form-label">Fordító neve</label>
+                                <input type="text" class="form-control form-control-sm" name="translator" id="translator"
+                                    placeholder="">
+
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="category" class="form-label">Kategória</label>
+                                <select class="form-select form-select-lg" name="category" id="category">
+                                    <option value="vers">Vers</option>
+                                    <option value="novella">Novella</option>
+                                    <option value="dalszöveg">Dalszöveg</option>
+
+                                </select>
+                            </div>
+
+                            <div class="mb-3 mt-4">
+                                <label for="translation" class="form-label">Fordítás</label>
+                                <textarea type="text" class="form-control form-control-sm" name="translation" id="translation"
+                                    placeholder="" rows="10" cols="50"></textarea>
+
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="isPublished" class="form-label">Fordítás publikálása</label>
+                                <select class="form-select form-select-lg" name="isPublished" id="isPublished">
+                                    <option value="nem">Nem</option>
+                                    <option value="igen">Igen</option>
+                    
+                                </select>
+                            </div>
+
+                            <div id="btn-container">
+                                <button type="submit" class="btn btn-success" id="add-post-button">Hozzáadás</button>
+                            </div>
+                        </form>
+                        <div id="post-container">
+
+
+                        </div>
+                        <div class="reference">
+                            <a href="./index.html" target="_blank"> <button class="btn btn-outline-primary"
+                                    type="button">Főoldal betöltése a változások utánkövetéséhez</button> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- PUBLISHED -->
+
+            <div class="col-8 col-md-10 text-center appear" id="published">
+                <h1>Jóváhagyott bejegyzések</h1>
+                <div class="row justify-content-center">
+                    <div class="col-6 mt-4 form-holder">
+
+                        <div id="published-container">
+
+
+                        </div>
+                        <div class="reference">
+                            <a href="./index.html" target="_blank"> <button class="btn btn-outline-primary"
+                                    type="button">Főoldal betöltése a változások utánkövetéséhez</button> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+    <script src="./scripts/admin.js"></script>
+</body>
+
+</html>

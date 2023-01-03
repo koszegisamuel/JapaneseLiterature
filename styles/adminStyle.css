@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(214, 214, 214);
+}
+
+.main {
+    margin: 0;
+    padding: 0;
+}
+
+/* Side navigation */
+
+.navbar {
+    width: 100%;
+    height: 100vh;
+    justify-content: flex-start;
+    
+}
+
+.navbar .container-fluid {
+    margin-top: 30px;
+}
+
+.navbar .container-fluid {
+    justify-content: flex-start;
+}
+
+.appear {
+    display: none;
+}
+
+/* Member holder */
+
+#post-holder {
+    background: rgb(214, 214, 214);
+    padding: 0;
+    margin: 0;
+}
+
+#post-holder h1, #published h1 {
+    padding-top: 30px;
+}
+
+
+
+.card-holder {
+    border: 1px black solid;
+    padding: 15px 0px;
+}
+
+.member-desc {
+    text-align: justify;
+    font-size: 18px;
+}
+
+.button-holder {
+    margin-top: 30px;
+}
+
+/* Published holder */
+
+
+/* Form */
+
+#member-form {
+    background: whitesmoke;
+    padding: 30px;
+    
+}
+.form-label {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.form-control {
+    font-size: 24px; 
+}
+
+/* Other */
+
+.reference {
+    margin-top: 40px;
+}
+
+.reference button {
+    font-size: 28px;
+}

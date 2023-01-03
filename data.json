@@ -1,0 +1,48 @@
+{
+  "posts": [
+    {
+      "author": "Tóth Árpád",
+      "postTitle": "Mi tagadás...",
+      "translatedTitle": "Why shit happens",
+      "originalDate": "1978",
+      "translator": "Kenny Urban",
+      "category": "vers",
+      "translation": "<br>\nMi tagadás, én víg vagyok, ha látják,<br>\nNem győz rajtam nevetni kis öcsém,<br>\nDe fátylába von elbusongó lágyság<br>\nFélre szobámnak csöndes hűvösén.<br>\nÓ, nem bánt engem asszonyság meg lányság,<br>\nNagy problémák csomóját nem kötém,<br>\nNem bánt a vallás, a papok, misék:<br>\nCsak valami nagy... Egyedüliség...<br>\n <br><br>\nÓ, neked azt, ha úgy megmagyaráznám!<br>\nKis paradoxok emésztő sulyát,<br>\nHa mint nagy festők méltán csodált vásznán<br>\nÉlni látszanak a festett gulyák,<br>\nBivalycsordám is én elődbe ráznám,<br>\nMely lelegeli lelkem sarjuját,<br>\nHa el tudnám mondani, hogy mi öklel!<br>\nÓ, ehhez nemcsak rím kell, ehhez több kell!<br>\nHa ez a vers hát épp csak délibáb lesz,<br>\nNagyító, elferdítő, torzitó,<br>\nBocsáss meg érte, hisz örök hibám ez,<br>\nKimondanám, mi ki nem mondható,<br>\nMint rossz szabó, ki túlfinom ruhát kezd,<br>\nMely keze alatt már csak rontható,<br>\nAethert hogy varrjon Árpád kontár tűje,<br>\nKubelik ő, de nincsen... hegedűje... ",
+      "isPublished": "igen",
+      "id": 1
+    },
+    {
+      "author": "Tamási Áron",
+      "postTitle": "Régi Dallamok",
+      "translatedTitle": "Kutyagumi a sötétben",
+      "originalDate": "2021",
+      "translator": "László István",
+      "category": "vers",
+      "translation": "\nEgy ismeretlen szép lány zongorázik.<br>\nFájó dallam, mint örvénylő patak,<br>\nLüktet fülembe a kis kerti házig,<br>\nHol meghúzódva ülök hallgatag.<br>\nKivül merev, bús tömbökké verődvén<br>\nMerengnek vénhedt, hajlott testü fák,<br>\nJégkéreggé fagy rajtuk a verőfény,<br>\nKék árnyukban ül hűs szomoruság...<br>\n <br><br>\nEllobbant lángelmék halk muzsikája<br>\nFüröszti fáradt, sáros lelkemet,<br>\nS úgy fáj, hogy éltem mért fonnyadt sivárra,<br>\nMint holt mező, mit tar homok temet.<br>\nA drága múlt ragyog fel ím előmbe,<br>\nMint éji tó, az árnyruhás, borús,<br>\nHa hűs tükrén piros fényét elöntve<br>\nKigyúl a nap, a szent, tűzkoszorús... <br>",
+      "isPublished": "igen",
+      "id": 2
+    },
+    {
+      "author": "Lackfi János",
+      "postTitle": "CSENDES MÁR... ",
+      "translatedTitle": "Thunderstorm",
+      "originalDate": "1790",
+      "translator": "Kokas Klára",
+      "category": "dalszöveg",
+      "translation": "\nCsendes már az erdő alja,<br>\nCsendesek a sárga kertek,<br>\nSzél bujkál a csüggedt fák közt,<br>\n <br><br>\nSzél bujkál, mint bús kivert eb,<br>\nÁtzörög a száraz ág közt,<br>\nHozzám simul, kezem nyalja.<br>\n <br><br>\nVégigleng az égen kóbor<br>\nFelhők búcsu-keszkenője,<br>\nÉs bánatok cúkorozzák<br>\n <br><br>\nMost a léget (mely, mint óbor)<br>\nS egész világ, árnyba dőlve,<br>\nEgy borús, nagy istenhozzád. ",
+      "isPublished": "igen",
+      "id": 3
+    },
+    {
+      "author": "Konrad Lorenz",
+      "postTitle": "A LELKEM FÁJ... ",
+      "translatedTitle": "Schwul ist ",
+      "originalDate": "2030",
+      "translator": "Ken Doe",
+      "category": "novella",
+      "translation": "\nA lelkem fáj... Isten ne adja,<br>\nHogy most belém szeressen egy leány,<br>\nÚgy vágyom egy puha ajakra,<br>\nSovárabb soh'se lehettem talán -<br>\nOly jó volna... Pihenni vágyom.<br>\nCsak két ringató kart találnék.<br>\nEgy perzselő iszonyu nyáron<br>\nJön minden árnyék...<br>\n <br><br>\nA lelkem fáj... Isten ne adja...<br>\nJaj volna, hogyha most találna rám.<br>\nBár volna jó, egyszerü fajta,<br>\nEgy senki, egy nyugodt leány.<br>\nBár senki volna... ha enyém volna...<br>\nOly beteg hő tüzel szemembe...<br>\nItt hagyna, jaj... vagy ő is bús<br>\nValaki lenne... ",
+      "isPublished": "igen",
+      "id": 4
+    }
+  ]
+}
